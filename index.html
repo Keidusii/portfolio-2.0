@@ -1,0 +1,309 @@
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles/Portfolio.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id="navbar">
+        <nav class="navbar fixed-top navbar-dark justify-content-center">
+            <button type="button" id="home-button" class="btn nav-button"><a href="#home" class="nav-link"><strong>Home</strong></a></button>
+            <button type="button" id="skills-button" class="btn nav-button"><a href="#skills" class="nav-link"><strong>Skills</strong></a></button>
+            <button type="button" id="projects-button" class="btn nav-button"><a href="#projects" class="nav-link"><strong>Projects</strong></a></button>
+            <button type="button" id="about-button" class="btn nav-button"><a href="#about" class="nav-link"><strong>About</strong></a></button>
+        </nav>
+    </div>
+    <!--content-->
+    <div id="content">
+        <!--Home-->
+        <div id="home">
+            <div id="pic-container">
+                <img src="media/linkedin-pic.jpg" alt="Profile Picture" id="linkedin-pic">
+            </div>
+            <div id="description-container">
+                <p id="name" class="display-3">Markeidus Hall II</p>
+                <p id="description" class="display-4">Software Developer</p>
+            </div>
+        </div>
+        <hr>
+        <!--Skills-->
+        <div id="skills">
+            <h1 class="subtitle">Skills</h1>  
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card bg-dark text-white img-card">
+                        <img src="./media/html.png" class="card-img" alt="HTML">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">HTML</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark text-white img-card">
+                        <img src="./media/css.png" class="card-img" alt="CSS">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">CSS</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark text-white img-card">
+                        <img src="./media/js.png" class="card-img" alt="JavaScript">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">JavaScript</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card bg-dark text-white img-card">
+                        <img src="./media/bootstrap.png" class="card-img" alt="Bootstrap">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Bootstrap</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark text-white img-card">
+                        <img src="./media/jquery.jpg" class="card-img" alt="Jquery">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Jquery</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark text-white img-card">
+                        <img src="./media/cpp.png" class="card-img" alt="C++">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">C++</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card bg-dark text-white img-card">
+                        <img src="./media/visual-studio-code.png" class="card-img" alt="Visual Studio Code">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Visual Studio Code</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark text-white img-card">
+                        <img src="./media/git.png" class="card-img" alt="Git">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Git</h5>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col">
+                    <div class="card bg-dark text-white img-card">
+                        <img src="./media/php.png" class="card-img" alt="PHP">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">PHP</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             
+            
+            <hr>
+        </div>
+
+        <!--Projects-->
+        <div id="projects">
+            <h1 class="subtitle">Projects</h1>
+            <div class="row row-cols-1 row-cols-lg-2 g-2">
+                <!--Project 1-->
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 680px;">
+                        <div class="row g-0">
+                            <div class="col-xl-4">
+                                <img class="project-image" src="./media/chess.png" alt="chess">
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="card-body">
+                                <h5 class="card-title">Chess</h5>
+                                <p class="card-text">Game where two players can play chess on the same screen.</p>
+                                <a class="btn btn-primary project-link" href="#" target="_blank" role="button">Live Demo</a>
+                                <a class="btn btn-secondary project-link" href="https://github.com/Keidusii/chess" target="_blank" role="button">Source</a>
+                                <ul>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">HTML</button></li>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">CSS</button></li>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">JavaScript</button></li>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">jQuery</button></li>
+                                </ul>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Project 2-->
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 680px;">
+                        <div class="row g-0">
+                            <div class="col-xl-4">
+                                <img class="project-image" src="./media/weather-scraper.png" alt="weather scraper">
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="card-body">
+                                <h5 class="card-title">Weather Scraper</h5>
+                                <p class="card-text">Website scraper that takes in a city and uses <a href="https://www.weather-forecast.com/" id="ws" target="_blank">this</a> to pull in weather data.</p>
+                                <a class="btn btn-primary project-link" href="#" target="_blank" role="button">Live Demo</a>
+                                <a class="btn btn-secondary project-link" href="https://github.com/Keidusii/weather-scraper" target="_blank" role="button">Source</a>
+                                <ul>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">HTML</button></li>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">CSS</button></li>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">JavaScript</button></li>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">PHP</button></li>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">Bootstrap</button></li>
+                                </ul>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2 g-2">
+                <!--Project 3-->
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 680px;">
+                        <div class="row g-0">
+                            <div class="col-xl-4">
+                                <img class="project-image" src="./media/blackjack.png" alt="blackjack">
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="card-body">
+                                <h5 class="card-title">Blackjack</h5>
+                                <p class="card-text">Console game that allows the player to play the casino game, blackjack.</p>
+                                <a class="btn btn-primary project-link" href="#" target="_blank" role="button">Video</a>
+                                <a class="btn btn-secondary project-link" href="https://github.com/Keidusii/blackjack" target="_blank" role="button">Source</a>
+                                <ul>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">C++</button></li>
+                                </ul>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Project 4-->
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 680px;">
+                        <div class="row g-0">
+                            <div class="col-xl-4">
+                                <img class="project-image" src="./media/treasure-hunter.png" alt="treasure hunter">
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="card-body">
+                                <h5 class="card-title">Treasure Hunter</h5>
+                                <p class="card-text">Console Game where the player has a certain amount of moves to reach the final position (treasure).</p>
+                                <a class="btn btn-primary project-link" href="#" target="_blank" role="button">Video</a>
+                                <a class="btn btn-secondary project-link" href="https://github.com/Keidusii/treasurehunter" target="_blank" role="button">Source</a>
+                                <ul>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">C++</button></li>
+                                </ul>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2 g-2">
+                <!--Project 5-->
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 680px;">
+                        <div class="row g-0">
+                            <div class="col-xl-4">
+                                <img class="project-image" src="./media//gpa-calculator.png" alt="gpa calculator">
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="card-body">
+                                <h5 class="card-title">GPA Calculator</h5>
+                                <p class="card-text">A simple GPA calculator used to input grade school letter grades to output a GPA.</p>
+                                <a class="btn btn-primary project-link" href="#" target="_blank" role="button">Live Demo</a>
+                                <a class="btn btn-secondary project-link" href="https://github.com/Keidusii/gpaCalc" target="_blank" role="button">Source</a>
+                                <ul>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">HTML</button></li>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">CSS</button></li>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">JavaScript</button></li>
+                                </ul>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Project 6-->
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 680px;">
+                        <div class="row g-0">
+                            <div class="col-xl-4">
+                                <img class="project-image" src="./media/portfolio.png" alt="portfolio">
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="card-body">
+                                <h5 class="card-title">Portfolio</h5>
+                                <p class="card-text">This website which showcases my skills and projects.</p>
+                                <a class="btn btn-secondary project-link" href="#" target="_blank" role="button">Source</a>
+                                <ul>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">HTML</button></li>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">CSS</button></li>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">JavaScript</button></li>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">jQuery</button></li>
+                                    <li><button type="button" class="btn btn-sm btn-outline-secondary project-language">Bootstrap</button></li>
+                                </ul>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+        </div>
+        
+        <!--About-->
+        <div id="about">
+            <h1 class="subtitle">About Me</h1>
+            <div id="about-content">
+                <img src="media/michigan.jpg" alt="Michigan Logo" id="michigan-logo">
+                <p class="about-me" id="about-p1">
+                    I graduated in 3.5 years from the University of Michigan with a B.S. in Biology, Health & Society. During the second half of undergrad, I explored options 
+                    in computer science. After taking the introductory course, I realized that I had found my passion. While finishing my degree, I spent extra time taking some 
+                    of the computer science courses including elementary programming concepts, discrete math, and programming and intro to data structures. This would later prepare
+                    me to teach myself after graduating.
+                </p>    
+                <p class="about-me" id="about-p2">  
+                    By time I graduated, I began to explore different fields within the coding industry, learning and making projects 
+                    for mainly game development. After some time, I came across web development, which I had learned the basics of in high school. 
+                    I had finally found the thing that I wanted to do with my life. Now, I am continuously teaching myself new  concepts, languages, and 
+                    frameworks, and applying those to my own projects to increase my skills.
+                </p>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div id="footer">
+        <nav class="navbar sticky-top navbar-dark justify-content-center">
+            <button type="button" class="btn nav-button"><a href="https://www.linkedin.com/in/markeidushallii/" target="_blank"><strong>LinkedIn</strong></a></button>
+            <button type="button" class="btn nav-button"><a href="https://github.com/Keidusii" target="_blank"><strong>Github</strong></a></button>
+        </nav>
+    </div>
+    <script src="Scripts/jquery-3.5.1.js"></script>
+    <script src="Scripts/Portfolio.js"></script>
+</body>
