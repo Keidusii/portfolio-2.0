@@ -1,0 +1,405 @@
+body {
+    background-color: rgb(28, 28, 28);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+#content {
+    background-color: rgb(222, 222, 222);
+    background-position: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6vh;
+    border-radius: 1%;
+    border: 2px solid black;
+    padding: 1%;
+}
+
+.navbar {
+    background-color: rgb(73, 73, 73);
+}
+
+.nav-button {
+    background-color: rgb(44, 44, 44);
+}
+
+.nav-link {
+    padding: 0px;
+}
+
+#footer {
+    background-color: rgb(73, 73, 73);
+    margin-top: 1%;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+#pic-container {
+    width: 24rem;
+    height: 30rem;
+    position: relative;
+    top: 180px;
+    left: 100px;
+    float: left;
+}
+
+#linkedin-pic {
+    position: relative;
+    left: 50px;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+#description-container {
+    float: left;
+    width: 45%;
+    position: relative;
+    top: 350px;
+    left: 200px;
+}
+
+#name {
+    display:block;
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    width: 83%;
+    padding-right: 1%;
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+#description {
+    display:block;
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    margin-top: 2%;
+    padding-right: 1%;
+    width: 76%;
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+
+.col {
+    margin-bottom: 1%;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    height: 100%;
+}
+
+.img-card {
+    height: 85%;
+    width: 80%;
+    padding: 15%;
+    margin-top: 2%
+}
+
+.card-img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-card {
+    margin-top: 5%;
+}
+
+.project-image {
+    width: 190px;
+    height: 190px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-bottom: 15%;
+}
+
+li {
+    float: left;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+.project-link {
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.project-language {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+#ws {
+    color: blue;
+}
+
+#home {
+    background-image: url(../media/background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100%;
+}
+
+#skills {
+    width: auto;
+    height: auto;
+}
+
+#projects {
+    width: auto;
+    height: auto;
+}
+
+#about {
+    width: auto;
+    height: auto;
+}
+
+#about-content {
+    background-color: white;
+    border: 1px solid black;
+    padding: 2%;
+}
+
+#michigan-logo {
+    height: 12rem;
+    width: 12rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-p1 {
+    text-indent: 2%;
+    text-align: justify;
+    margin: 1%;
+}
+
+#about-p2 {
+    text-indent: 2%;
+    text-align: justify;
+    margin: 1%;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(222, 222, 222);
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+}
+
+button {
+    margin-left: 20px;
+    width: 100px;
+}
+
+hr {
+    background-color: rgb(145, 145, 145);
+}
+
+@media (max-width: 1600px) {
+    #pic-container {
+        float:none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: 0px;
+        top: 100px;
+    }
+
+    #linkedin-pic {
+        left: 0;
+    }
+
+    #description-container {
+        float: none;
+        left: 0;
+        top: 130px;
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    #name {
+        width: 95%;
+        margin: 2% auto;
+    }
+    
+    #description {
+        width: 88%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    #home {
+        height: 85%;
+    }
+
+    #description-container {
+        width: 80%;
+        
+    }
+
+    #name {
+        width: 87%;
+        margin: 2% auto;
+    }
+    
+    #description {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .img-card {
+        height: 200px;
+    }
+
+    .card-title {
+        position: relative;
+        top: -10px;
+    }
+}
+
+@media (max-width: 768px) {
+    #description-container {
+        width: 93%;
+    }
+
+    #name {
+        width: 100%;
+    }
+    
+    #description {
+        width: 92%;
+    }
+
+    .img-card {
+        height: 160px;
+    }
+    
+    .card-img {
+        position: relative;
+        top: 20px;
+    }
+}
+
+@media (max-width: 414px) {
+    .navbar {
+        width: 100%;
+    }
+
+    .nav-button {
+        width: 23%;
+        margin: 1%;
+        padding: 1%;
+    }
+
+    #content {
+        margin-top: 70px;
+    }
+
+    #home {
+        background-position: center;
+        height: 80%;
+    }
+
+    #pic-container {
+        width: 80%;
+        height: 50%;
+    }
+
+    #description-container {
+        width: 100%;
+    }
+
+    #name {
+        font-size: 2rem;
+        width: 79%;
+    }
+    
+    #description {
+        font-size: 1.9rem;
+        width: 88%;
+    }
+
+    .img-card {
+        width: 75%;
+        height: 220px;
+    }
+
+    .card-title {
+        padding: 0%;
+        position: relative;
+        top: -10px;
+    }
+
+    .card-img {
+        top: 0;
+    }
+
+    #about-p1 {
+        text-indent: 28px;
+    }
+
+    #about-p2 {
+        text-indent: 28px;
+    }
+}
+
+@media (max-width: 375px) {
+    #pic-container {
+        height: 55%;
+    }
+
+    #description-container {
+        top: 110px;
+    }
+
+    #name {
+        width: 85%;
+    }
+    
+    #description {
+        width: 95%;
+    }
+
+    .img-card {
+        height: 200px;
+    }
+}
