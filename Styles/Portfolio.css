@@ -55,7 +55,6 @@ body {
 
 #description-container {
     float: left;
-    width: 45%;
     position: relative;
     top: 350px;
     left: 200px;
@@ -257,12 +256,46 @@ hr {
     .card-body {
         padding-left: 40px;
     }
+
+    #name {
+        font-size: 3rem;
+    }
+
+    #description {
+        font-size: 2.6rem;
+    }
 }
 
 @media screen and (max-width: 1024px) {
+    #pic-container {
+        float:none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: 0px;
+        top: 50px;
+    }
+
+    #linkedin-pic {
+        left: 0;
+    }
+
     #description-container {
-        width: 80%;
-        
+        float: none;
+        left: 0;
+        top: 70px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #name {
+        margin: 2% auto;
+    }
+    
+    #description {
+        margin: 0 auto;
+        width: 16.5ch;
     }
 
     .img-card {
@@ -276,37 +309,12 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
-    #pic-container {
-        float:none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        left: 0px;
-        top: 100px;
-    }
-
-    #linkedin-pic {
-        left: 0;
-    }
-
-    #description-container {
-        float: none;
-        left: 0;
-        top: 130px;
-        display: block;
-        margin: 0 auto;
-        width: 93%;
-    }
-
     #name {
-        margin: 2% auto;
         font-size: 2.7rem;
     }
     
     #description {
-        margin: 0 auto;
-        font-size: 2.6rem;
+        font-size: 2.2rem;
     }
 
     .img-card {
@@ -342,10 +350,6 @@ hr {
     #pic-container {
         width: 80%;
         height: 50%;
-    }
-
-    #description-container {
-        width: 100%;
     }
 
     #name {
