@@ -10,7 +10,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 6vh;
-    border-radius: 1%;
+    border-radius: 10px;
     border: 2px solid black;
     padding: 1%;
 }
