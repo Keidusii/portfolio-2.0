@@ -40,8 +40,8 @@ body {
     width: 24rem;
     height: 30rem;
     position: relative;
-    top: 180px;
-    left: 100px;
+    top: 120px;
+    left: 190px;
     float: left;
 }
 
@@ -56,8 +56,8 @@ body {
 #description-container {
     float: left;
     position: relative;
-    top: 350px;
-    left: 200px;
+    top: 290px;
+    left: 300px;
 }
 
 #name {
