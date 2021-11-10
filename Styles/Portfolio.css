@@ -119,12 +119,15 @@ body {
 }
 
 .card-img {
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    margin: 5px auto;
+    width: 130px;
+    height: 130px;
 }
 
 .project-card {
     margin-top: 1%;
+    background-color: rgb(236, 236, 236);
 }
 
 .project-image {
@@ -173,6 +176,10 @@ li {
 #skills {
     width: auto;
     height: auto;
+}
+
+.skills-container {
+    margin: 0 auto;
 }
 
 #projects {
@@ -323,8 +330,8 @@ hr {
     }
     
     .card-img {
-        position: relative;
-        top: 20px;
+        width: 100px;
+        height: 100px;
     }
 }
 
@@ -372,7 +379,8 @@ hr {
     }
 
     .card-img {
-        top: 0;
+        width: 80px;
+        height: 80px;
     }
 
     #about-p1 {
