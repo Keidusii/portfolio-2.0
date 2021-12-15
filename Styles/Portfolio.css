@@ -68,7 +68,6 @@ body {
     font-weight: 400;
     color: white;
     background-color: black;
-    width: 14ch;
     padding-right: 1%;
     animation: 
     typing 3.5s steps(40, end),
@@ -82,7 +81,6 @@ body {
     white-space: nowrap;
     font-weight: 400;
     color: white;
-    width: 17ch;
     background-color: black;
     margin-top: 2%;
     padding-right: 1%;
@@ -297,12 +295,11 @@ hr {
     }
 
     #name {
-        margin: 2% auto;
+        margin: 5px auto;
     }
     
     #description {
         margin: 0 auto;
-        width: 17.5ch;
     }
 
     .img-card {
